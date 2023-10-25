@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark" >
+<html  lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- meta tags -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>Personal Portfolio</title>
     <meta name="title" content="Personal Portfolio" />
     <meta
@@ -32,30 +33,24 @@
   </head>
   <body>
     <!-- # TOP BAR -->
+    
     <header class="topbar">
-      <a href="https://spaceonerealty.com/" class="logo">
+      <a href="" class="logo">
         <img
-          src="./images/Logo_dark.png"
+          src="./images/portfolio-plus-banking-software-logo-big.png"
           alt=""
           width="145"
           height="32"
           class="dark"
+          id="ho"
         />
-        <img
-          src="./images/Logo_light.png"
-          alt=""
-          width="145"
-          height="32"
-          class="light"
-        />
+    
       </a>
-      <button id="icon" class="icon-btn theme-btn" data-theme-btn>
-        <span  class="material-symbols-outlined dark" aria-hidden="true">
-          dark_mode
-        </span>
-        <span  class="material-symbols-outlined light" aria-hidden="true" >
-          light_mode
-        </span>
+      <button class="button theme-btn"  id="icons">
+          <img  class="change" id="icons" src="images/moon.png" alt="">
+
+
+
         <div class="state-layer"></div>
       </button>
     </header>
@@ -112,27 +107,27 @@ Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis 
     <div>
       <!-- #primary Tabs -->
       <div class="primary-tabs">
-        <button class="tab-btn active"data-tab-btn='project'>
+        <button class="tab-btn active  "data-tab-btn='project'>
           <span class="tab-text title-small">Projects</span>
           <div class="state-layer"></div>
         </button>
-        <button class="tab-btn  "data-tab-btn='resume'>
+        <button class="tab-btn   "data-tab-btn='skills'>
           <span class="tab-text title-small">Skills</span>
           <div class="state-layer"></div>
         </button>
-        <button class="tab-btn "data-tab-btn='contact'>
+        <button class="tab-btn  "data-tab-btn='contact'>
           <span class="tab-text title-small">Contact</span>
           <div class="state-layer"></div>
         </button>
       </div>
 
         <!-- # project -->
-        <section class=" section tab-content " data-tab-content="'project">
+        <section class=" section tab-content active"   data-tab-content="project">
               <div class="container">
                 <div class="project-list">
                   <div class="card">
                     <figure class=" card-banner img-holder" style="--width:334 --height:180">
-                      <img src="./images/project-1.png" alt="" class="img-cover">
+                      <img src="img/NEWS  WITH JS.svg" alt="" class="img-cover">
                        
                     </figure>
                     <div class="card-content">
@@ -146,7 +141,7 @@ Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis 
                   </div>
                   <div class="card">
                     <figure class=" card-banner img-holder" style="--width:334 --height:180">
-                      <img src="./images/project-2.png" alt="" class="img-cover">
+                      <img src="./img/ECOMMERCE APP WITH REACT .svg" alt="" class="img-cover">
                        
                     </figure>
                     <div class="card-content">
@@ -160,7 +155,7 @@ Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis 
                   </div>
                   <div class="card">
                     <figure class=" card-banner img-holder" style="--width:334 --height:180">
-                      <img src="./images/project-3.png" alt="" class="img-cover">
+                      <img src="img/ECOMMERCE WITH TAILWIND.svg" alt="" class="img-cover">
                        
                     </figure>
                     <div class="card-content">
@@ -172,54 +167,13 @@ Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis 
                     </div>
                     <a href="" class="state-layer"></a>
                   </div>
-                  <div class="card">
-                    <figure class=" card-banner img-holder" style="--width:334 --height:180">
-                      <img src="./images/project-4.png" alt="" class="img-cover">
-                       
-                    </figure>
-                    <div class="card-content">
-                      <span class="label-large card-subtitle">Web App </span>
-               
-                        <h3 class="title-large card-title">
-                          Web App
-                        </h3>
-                    </div>
-                    <a href="" class="state-layer"></a>
-                  </div>
-                  <div class="card">
-                    <figure class=" card-banner img-holder" style="--width:334 --height:180">
-                      <img src="./images/project-5.png" alt="" class="img-cover">
-                       
-                    </figure>
-                    <div class="card-content">
-                      <span class="label-large card-subtitle">Web App </span>
-               
-                        <h3 class="title-large card-title">
-                          Web App
-                        </h3>
-                    </div>
-                    <a href="" class="state-layer"></a>
-                  </div>
-                  <div class="card">
-                    <figure class=" card-banner img-holder" style="--width:334 --height:180">
-                      <img src="./images/project-6.png" alt="" class="img-cover">
-                       
-                    </figure>
-                    <div class="card-content">
-                      <span class="label-large card-subtitle">Web App </span>
-               
-                        <h3 class="title-large card-title">
-                          Web App
-                        </h3>
-                    </div>
-                    <a href="" class="state-layer"></a>
-                  </div>
+                 
                 </div>
               </div>
         </section>
 
         <!-- #skills -->
-        <section class="section tab-content skill-tab " data-tab-content="skills">
+        <section class="section tab-content skill-tab"   data-tab-content="skills">
         <div class="container">
           <h2 class="section-title title-small">  Skills     </h2>
              <ul class="skills">
@@ -232,10 +186,7 @@ Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis 
                     <span class="label-medium">CSS3</span>
                   </li>
               
-                    <li class="skill-item">
-                      <img src="./images/css3.svg" alt="HTML5" class="icon" width="28" height="28">
-                      <span class="label-medium">CSS3</span>
-                    </li>
+              
                     <li class="skill-item">
                     <img src="./images/tailwind-logo.png" alt="HTML5" class="icon" width="28" height="28">
                     <span class="label-medium">Tailwind</span>
@@ -266,7 +217,7 @@ Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis 
 </section>
 
 <!-- #contact -->
-<section class="section tab-content contact-tab active" data-tab-content="contact">
+<section class="section tab-content contact-tab  " data-tab-content="contact">
   <div class="container">
     <div class="contact-info">
     <h4 class="section-title title-small">
