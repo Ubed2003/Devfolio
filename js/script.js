@@ -15,9 +15,9 @@ var icons = document.getElementById("icons")
 icons.onclick = function (){
     document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains('dark-theme')){
-        change.src = 'images/sun.png'
+        change.src = 'img/sun.png'
     }else{
-        change.src = 'images/moon.png'
+        change.src = 'img/moon.png'
         
     }
 }

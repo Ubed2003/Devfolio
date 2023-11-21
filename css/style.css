@@ -262,7 +262,6 @@ body {
   width:30px;
   height: 30px;
   display: block;
-  font-variation-settings: "FILL" 0 "wght" 400, "GRAD" 0, "opsz" 24;
   font-size: 20px;
 }
 
@@ -645,14 +644,14 @@ textarea {
   align-items: center;
   gap: 12px;
 }
-/* .contact-info{
+.contact-info .icon-box{
   width:48px;
   height: 48px;
   flex-shrink: 0;
   display: grid;
   place-items: center;
   color: var(--on-surface-variant);
-} */
+}
 .info-content {
   display: grid;
   gap: 4px;
@@ -665,11 +664,11 @@ textarea {
 .info-text {
   color: var(--background-surface-variant);
 }
-/* .social-list{
+.social-list{
   display: flex;
   gap: 12px;
 
-} */
+}
 
 .social-item {
   padding: 12px;
@@ -712,7 +711,7 @@ grid-template-columns: 0.5fr 1fr;
 }
 .about-card,
 .primary-tabs{
-  position: sticky;
+
   top: 64px;
 }
 .primary-tabs{
