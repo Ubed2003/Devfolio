@@ -10,17 +10,28 @@
  */
 
 
-var change = document.querySelector(".change")
+
 var icons = document.getElementById("icons")
 icons.onclick = function (){
     document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains('dark-theme')){
-        change.src = 'img/sun.png'
+        icons.src = 'img/sun.png'
     }else{
-        change.src = 'img/moon.png'
+        icons.src = 'img/moon.png'
         
     }
 }
+
+// var icons = document.getElementById("icons")
+// icons.onclick = function (){
+//     document.body.classList.toggle("dark-theme")
+//     if(document.body.classList.contains('dark-theme')){
+//         icons.src = 'img/sun.png'
+//     }else{
+//         icons.src = 'img/moon.png'
+        
+//     }
+// }
 
 // Tab
 const  tabBtn = document.querySelectorAll('[data-tab-btn]')

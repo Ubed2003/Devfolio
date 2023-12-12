@@ -67,6 +67,8 @@
 .dark-theme {
   --primary-color: #212121;
   --secondary-color: #fff;
+
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -141,7 +143,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: var(--primary-color);
+    background: url('img/DEVELOPFOLIO.jpg');
+  background-color: var(--primary-color );
+
+  
+  
   color: var(--secondary-color);
   font-size: var(--body-large);
 }
