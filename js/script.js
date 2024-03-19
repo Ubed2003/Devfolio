@@ -1,15 +1,4 @@
 
-//  * @copyright UbedKhan 2023
-//  * @author Ubed <ubedkhan2383@gmail.com>
-
-
-
-
-/**
- * Light and dark mode
- */
-
-
 var develop = document.getElementById('develop')
 var icons = document.getElementById("icons")
 icons.onclick = function (){
