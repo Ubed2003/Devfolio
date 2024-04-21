@@ -4,12 +4,12 @@ var icons = document.getElementById("icons")
 icons.addEventListener( 'click', function (){
     document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains('dark-theme')){
-        icons.innerHTML =  'a'
-        icons.style.color = 'white'
+        icons.src =  'img/sun.png'
+  
         develop.src = 'img/DEVLOPFOLIO.jpg'
     }else{
-        icons.innerHTML =  'chal'
-        icons.style.color = 'black'
+        icons.src =  'img/moon.png'
+
         develop.src = 'img/DEVLOPFOLIO.png'
         
     }
