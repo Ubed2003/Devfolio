@@ -104,7 +104,9 @@ a {
 img {
   height: auto;
 }
-
+p{
+   color: white
+}
 input,
 button,
 textarea {
